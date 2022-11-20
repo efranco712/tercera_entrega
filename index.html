@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YALEUSACO</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link type="image/ico" href="images/icono.png" rel="shortcut icon" />
+  </head>
+
+  <body>
+    <!-- Cabezera -->
+    <section class="top-nav">
+      <div><a><img src="images/logo.png" alt=""></a></div>
+      <!-- Menu Burguer -->
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <!-- / Menu Burguer -->
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios y productos</a></li>
+        <li><a href="trabajo.html">Trabaja con nosotros</a></li>
+        <li><a href="nosotros.html">Sobre YALEUSACO</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="javascript:void(0);">ES/EN</a></li>
+      </ul>
+    </section>
+    <!-- / Cabezera -->
+
+    <!-- Carousel -->
+    <div>
+      <div class="carousel">
+        <ul class="slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img
+                src="images/carousel1.png"
+              />
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img
+                src="images/carousel2.png"
+              />
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img
+                src="images/carousel3.png"
+              />
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <!-- / Carousel -->
+    <div id="banner">
+      <div id="banner-txt">
+          <h1>Más de 40 años de</h1>
+          <h1>experiencia</h1>
+      </div>
+      <div id="button">
+        <button class="button">Más información</button>
+      </div>
+    </div>
+    <!--Texto banner-->
+    <div class="banner-corto">
+      <img src="images/bannerimg.png" width="100%" alt="banner">
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <h3>YALEUSACO</h3>
+        <p>Soluciones en Caucho</p>
+        <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook">
+            <img src="images/facebook.png" alt="">
+          </i></a></li>
+          <li><a href="#"><i class="fa fa-twitter">
+          <img src="images/Twitter.png" alt="">
+          </i></a></li>
+          <li><a href="#"><i class="fa fa-instagram">
+            <img src="images/instagram.png" alt="">
+          </i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square">
+            <img src="images/linkedin.png" alt="">
+          </i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2022 <a href="#">YALEUSACO</a>  </p>
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Empleos</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  <!-- /Footer -->
+  </body>
+</html>

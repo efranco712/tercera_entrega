@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YALEUSACO</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link type="image/ico" href="images/icono.png" rel="shortcut icon">
+</head>
+
+<body>
+
+    <!-- Cabezera -->
+    <section class="top-nav">
+        <div><a><img src="images/logo.png" alt=""></a></div>
+        <!-- Menu Burguer -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+        </label>
+        <!-- / Menu Burguer -->
+        <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios y productos</a></li>
+        <li><a href="trabajo.html">Trabaja con nosotros</a></li>
+        <li><a href="nosotros.html">Sobre YALEUSACO</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="javascript:void(0);">ES/EN</a></li>
+        </ul>
+    </section>
+    <!-- / Cabezera -->
+    <section id="Formulario">
+        <div class="contacto">
+            <h1>Contáctanos</h1>
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                <label for="fname">Nombre</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Ingresa tu nombre">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="lname">Apellido</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="ingresa tu apellido completo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="fname">Correo</label>
+                </div>
+                <div class="col-75">
+                <input type="text" id="fmail" name="mail" placeholder="Ingresa tu correo">
+                    <a href="index.html"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="country">País</label>
+                </div>
+                <div class="col-75">
+                <select id="country" name="country">
+                    <option value="usa">Argentina</option>
+                    <option value="australia">Australia</option>
+                    <option value="usa">Brasil</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">Chile</option>
+                    <option value="usa">Colombia</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Francia</option>
+                    <option value="usa">Perú</option>
+                </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="subject">Mensaje</label>
+                </div>
+                <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="ingresar texto" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Enviar">
+            </div>
+            </form>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+        <h3>YALEUSACO</h3>
+        <p>Soluciones en Caucho</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook">
+            <img src="images/facebook.png" alt="">
+            </i></a></li>
+            <li><a href="#"><i class="fa fa-twitter">
+            <img src="images/Twitter.png" alt="">
+            </i></a></li>
+            <li><a href="#"><i class="fa fa-instagram">
+            <img src="images/instagram.png" alt="">
+            </i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square">
+            <img src="images/linkedin.png" alt="">
+            </i></a></li>
+        </ul>
+        </div>
+        <div class="footer-bottom">
+        <p>copyright &copy;2022 <a href="#">YALEUSACO</a>  </p>
+        <div class="footer-menu">
+            <ul class="f-menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Empleos</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+        <!-- Footer -->
+</body>
+
+</html>
