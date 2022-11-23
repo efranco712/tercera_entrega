@@ -301,12 +301,18 @@ ul.slides input {
         text-align: left;
         left: 0;
     }
+}
 
-    .next-slide {
-        width: 49%;
-        text-align: right;
-        right: 0;
-    }
+/* padding top carousel*/
+
+.carousel {
+    padding-top: 30px;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
 }
 
 .carousel-dots {
@@ -506,7 +512,8 @@ footer {
     margin-bottom: 30px;
 }
 
-#button :hover {
+#button :hover,
+.item1 :hover {
     background-color: #1860fb;
 }
 
@@ -533,17 +540,8 @@ footer {
     padding-top: 60px;
 }
 
-.texto-mision {
-    padding-left: 60px;
-    padding-top: 60px;
-    padding-bottom: 70px;
-}
-
-.grid-mision {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-right: 30px;
+.banner-servicios {
+    padding-top: 30px;
 }
 
 #image-mision img {
@@ -558,8 +556,11 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-left: 30px;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(231, 231, 231);
+}
+
+.texto-vision {
+    padding-left: 30px;
 }
 
 #banner {
@@ -679,6 +680,10 @@ input[type=submit] {
     margin-left: 30px;
 }
 
+.nosotros {
+    padding-top: 30px;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
@@ -713,5 +718,51 @@ input[type=submit] {
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+}
+
+/* servicios grid responsive*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*-------- */
+@media screen and (max-width: 500px) {
+    .grid-general {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
     }
 }
